@@ -111,6 +111,17 @@ code {
   padding: 0.1em 0.4em;
   border-radius: var(--ease-radius-sm);
 }
+kbd {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.15rem 0.5rem;
+  background-color: var(--ease-color-neutral-100);
+  border: 1px solid var(--ease-color-neutral-300);
+  border-radius: var(--ease-radius-sm);
+  color: var(--ease-color-neutral-800);
+  line-height: 1.4;
+}
 
 pre {
   background-color: var(--ease-color-neutral-900);
